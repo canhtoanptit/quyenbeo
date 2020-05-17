@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+
+  .Product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .Item {
+      padding-left: 40px;
+    }
+  }
+
+  .Menu {
+    cursor: pointer;
+  }
+
+  .Logo {
+    cursor: pointer;
+  }
+}
